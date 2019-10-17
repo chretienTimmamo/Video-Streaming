@@ -1,1 +1,1 @@
-Video streaming 
+Play streaming  
