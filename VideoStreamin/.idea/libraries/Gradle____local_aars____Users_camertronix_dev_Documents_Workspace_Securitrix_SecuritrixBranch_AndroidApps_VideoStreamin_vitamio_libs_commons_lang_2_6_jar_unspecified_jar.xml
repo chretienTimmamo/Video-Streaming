@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: __local_aars__:/Users/camertronix_dev/Documents/Workspace-Securitrix/SecuritrixBranch/AndroidApps/VideoStreamin/vitamio/libs/commons-lang-2.6.jar:unspecified@jar">
+  <library name="Gradle: __local_aars__:/AndroidApps/VideoStreamin/vitamio/libs/commons-lang-2.6.jar:unspecified@jar">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/vitamio/libs/commons-lang-2.6.jar!/" />
     </CLASSES>
