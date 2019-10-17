@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mshopmobile.app.com.videostreaming">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".UILApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/cameraimage"
+        android:label="@string/app_name"
+        android:theme="@style/AppBaseTheme">
+        <activity
+            android:name=".MainActivity"
+            android:icon="@drawable/cameraimage"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".VideoTabActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name=".LoginActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/ac_name_image_login"
+            android:theme="@style/AppBaseTheme" />
+        <activity
+            android:name=".VideoTabManagerActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/camera_list"
+            android:theme="@style/AppNoTheme" />
+        <activity
+            android:name=".CameraListActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/camera_list"
+            android:theme="@style/AppBaseTheme" />
+        <activity
+            android:name=".StreamCameraActivity"
+            android:configChanges="orientation|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation"
+            android:icon="@drawable/cameraimage"
+            android:label="@string/camera_view"
+            android:theme="@style/AppBaseTheme" />
+        <activity
+            android:name=".ZoneListActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/zone_list"
+            android:theme="@style/AppBaseTheme" />
+        <activity
+            android:name=".StreamRecordActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/zone_list"
+            android:theme="@style/AppBaseTheme" />
+        <activity
+            android:name=".RecordDetailsActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:icon="@drawable/video_record"
+            android:label="@string/record_list"
+            android:theme="@style/AppBaseTheme" />
+        <activity
+            android:name=".Planification.PlanningActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:icon="@drawable/calendar"
+            android:label="@string/periodeList" />
+        <activity
+            android:name=".Planification.preferences.PlanningPeriodActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:icon="@drawable/calendar"
+            android:label="@string/periodeLabel" />
+        <activity
+            android:name=".SimpleImageActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:icon="@drawable/picture"
+            android:label="@string/imageList"
+            android:theme="@style/AppVideoTheme" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".StreamCameraActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="mshopmobile.app.com.videostreaming.StreamCameraActivity" />
+        </activity>
+        <activity android:name=".OnvifCamera">
+            <intent-filter>
+                <action android:name=".OnvifCamera" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

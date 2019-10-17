@@ -1,0 +1,93 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style>
+    <style name="AppBaseNotificationTheme" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/blue</item>
+    </style>
+    <style name="AppBaseNotificationLayout" parent="android:Theme.Holo.Light">
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:colorBackground">@color/gray</item>
+    </style>
+
+    <style name="AppVideoTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar" />
+
+    <style name="AppNoTheme" parent="@style/Theme.AppCompat.Light.NoActionBar"/>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme_new" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:actionOverflowButtonStyle">@style/MyActionButtonOverflow</item>
+    </style>
+
+    <style name="MyActionButtonOverflow" parent="android:style/Widget.Holo.Light.ActionButton.Overflow">
+        <!--Here you need to put name of drawable you will create during the next step-->
+        <item name="android:src">@drawable/ip_camera2_old</item>
+    </style>
+
+    <!-- New style to PageTabStrip  @Author: Chretien Timmamo -->
+
+    <style name="PagerTabStripText">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <!-- =============================================================== -->
+    <!-- Material-Light styles -->
+    <!-- =============================================================== -->
+
+
+    <style name="VideoSecuritrixTheme" parent="Theme.AppCompat.Light">
+       <!-- <item name="android:background">@drawable/white_gray_gradient_background</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_padding</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_padding</item>
+        <item name="android:paddingBottom">@dimen/activity_horizontalxx_padding_bottom</item>
+        <item name="android:paddingTop">@dimen/activity_horizontal_padding</item> -->
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textSize">@dimen/activity_horizontal_margin1</item>
+        <item name="colorPrimary">@color/appColor</item>
+        <item name="colorPrimaryDark">@color/appColor</item>
+        <item name="android:actionBarSize">35dp</item>
+
+    </style>
+
+    <style name="Custom" parent="android:Theme.DeviceDefault.Dialog">
+        <item name="DialogTitleAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="DialogTitleText">Loading Stream…</item>
+        <item name="DialogSpotColor">@android:color/holo_red_dark</item>
+        <item name="DialogSpotCount">8</item>
+    </style>
+
+    <!-- Define a default Style for my personalize Apps -->
+
+    <style name="AppThemeForRed"
+        parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/appColor</item>
+        <item name="colorPrimaryDark">@color/appColor</item>
+        <item name="colorAccent">@color/appColor</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textSize">@dimen/activity_horizontal_margin1</item>
+        <item name="android:buttonStyle">@style/buttonStyle</item>
+        <item name="buttonStyle">@style/buttonStyle</item>
+        <!-- ********* CHECK HERE ********* -->
+        <item name="android:actionBarSize">400dp</item>
+    </style>
+
+    <style name="buttonStyle"
+        parent="android:style/Widget.Button">
+        <item name="android:background">@xml/button_style</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

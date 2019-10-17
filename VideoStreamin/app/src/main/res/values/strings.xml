@@ -1,0 +1,166 @@
+<resources>
+    <string name="app_name">SecuritrixVideo</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_logout">Logout</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="ac_name_image_list">List Images</string>
+    <string name="camera_view">View Camera</string>
+    <string name="zone_list">zone</string>
+    <string name="record_list">records list</string>
+    <string name="camera_list">My Camera</string>
+
+    <string name="word">Word Cam</string>
+    <string name="myCam">My Cams</string>
+    <string name="record">Records</string>
+
+    <string name="title_activity_notification">loading...</string>
+
+    <string name="ac_name_image_login">Login</string>
+    <string name="login">Email | Phone </string>
+    <string name="password">Password</string>
+    <string name="loginBtn">Login</string>
+    <string name="logout">Log out...</string>
+    <string name="check_connexion">Check connexion and retry again</string>
+    <string name="empty_list_home">There is no zone at the moment</string>
+    <string name="empty_list_camera">There is no camera at the moment</string>
+    <string name="require_login">Login is required</string>
+    <string name="communication_error">Dear user we could not contact our servers, please check your internet connection</string>
+    <string name="camera_unavailable">Dear user,this camera isn\'t available please try to access it later</string>
+    <string name="logoutSuccess">You have been successfully logged out</string>
+    <string name="notConnected">You are not logged in, please enter your credentials</string>
+    <string name="incorrentLoginPassword">Incorrect login or password</string>
+    <string name="unexpectedError">An unexpected error happened, our engineers have been notified</string>
+    <string name="communicationErrorWithServer">Error with serveur communication, please try again later.</string>
+    <string name="descr_image">Image</string>
+    <string name="loginPopup">Checking your login parameters...</string>
+    <string name="processingPopup">Processing...</string>
+    <string name="userRegistrationPopup">Recording your informations...</string>
+    <string name="periodFrom">from </string>
+    <string name="periodTo"> To </string>
+    <string name="periodStatus">Activated</string>
+    <string name="deleteAllPeriod">delete all period success </string>
+    <string name="camera_viewer">Camera Viewer</string>
+    <string name="delete_planning">Delete this planning</string>
+    <string name="no_planning">No planning Avialable</string>
+    <string name="plannificationLabel">Plannification</string>
+    <string name="imageList">Image list </string>
+    <string name="periodeList">periods list </string>
+    <string name="periodeLabel">period</string>
+    <string name="existing_period"> period contains a time has already been regisred </string>
+    <string name="planning_add">Planning add</string>
+    <string name="emptyPeriod">specify the period</string>
+    <string name="image_name">""</string>
+    <string name="ImageList_Success">ImageList success</string>
+    <string name="noImageFound">No Image Found</string>
+    <string name="ImageFound">We have found images</string>
+
+
+    <string name="title_list">List</string>
+    <string name="title_grid">Grid</string>
+    <string name="ac_name_image_pager">Image Detail</string>
+
+    <string name="menu_item_new"> New</string>
+    <string name="menu_item_save">Save</string>
+    <string name="menu_item_delete">Delete</string>
+
+    <string name="menu_item_clear_memory_cache">Clear memory cache</string>
+    <string name="menu_item_clear_disc_cache">Clear disc cache</string>
+    <string name="menu_item_pause_on_scroll">Pause on scroll</string>
+    <string name="menu_item_pause_on_fling">Pause on fling</string>
+
+    <string name="saving_image_well">"Image well saved"</string>
+    <string name="error_saving_image">"Error saving image file"</string>
+    <string name="sd_Card_Not_found">"SD Card Not Found"</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_local_storage">Local Storage</string>
+    <string-array name="pref_local_storage_titles">
+        <item>SD card</item>
+        <item>Mobile</item>
+    </string-array>
+    <string-array name="pref_local_storage_values">
+        <item>0</item>
+        <item>1</item>
+
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_video_streaming">VideoStreaming</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_settings1">Log out</string>
+    <string name="title_activity_stream_multiview">StreamMultiviewActivity</string>
+    <string name="nav_header_title"> Video Securitrix © version 2.0 </string>
+    <string name="nav_header_subtitle"> Your are log in </string>
+    <string name="nav_header_desc1">Navigation header</string>
+    <string name="camera_view_onvif">View Camera Real Time</string>
+
+    <string name="action_in_progress">© 2019 SecuritrixVideo: Dear User, this functionnality is in progress ...</string>
+    <string name="start_record">Start record</string>
+    <string name="stop_record">Stop record</string>
+
+
+    <string name="login_7">Securitrix</string>
+    <string name="login_8">Video</string>
+    <string name="login_1">Enter Your Email Address or Phone Number </string>
+    <string name="login_0">Enter Your Password </string>
+    <string name="login_2">Send Verification Code</string>
+    <string name="login_3">Secure your business with Securitrix Video</string>
+    <string name="login_4">Terms of Service </string>
+    <string name="login_5"> \  and \  </string>
+    <string name="login_6">Privacy Policy</string>
+
+</resources>

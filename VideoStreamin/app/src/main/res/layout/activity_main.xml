@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#000000"
+    android:orientation="vertical">
+
+    <io.vov.vitamio.widget.VideoView
+        android:id="@+id/vitamio_videoView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"/>
+    <ProgressBar
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:progressDrawable="@drawable/progress_large_white" />
+    <ImageView
+        android:id="@+id/imageViewScreenShot"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/panelButton"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/start"
+                android:layout_width="wrap_content"
+                android:layout_height="50sp"
+                android:contentDescription="Start/Stop Streaming"
+                android:src="@drawable/full_screen"
+                android:text="Start/Stop Streaming" />
+
+            <ImageButton
+                android:id="@+id/capture"
+                android:layout_width="wrap_content"
+                android:layout_height="50sp"
+                android:contentDescription="Flash"
+                android:src="@drawable/capture_stream" />
+
+            <ImageButton
+                android:id="@+id/camera"
+                android:layout_width="wrap_content"
+                android:layout_height="50sp"
+                android:contentDescription="Camera"
+                android:src="@drawable/video_recorder" />
+
+            <ImageButton
+                android:id="@+id/settings"
+                android:layout_width="wrap_content"
+                android:layout_height="50sp"
+                android:contentDescription="Video Settings"
+                android:src="@drawable/stream_setting" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/panelSnapshoot"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:id="@+id/layoutSnapshoot"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/cancelSnapshoot"
+                android:layout_width="wrap_content"
+                android:layout_height="50sp"
+                android:contentDescription="Cancel"
+                android:src="@drawable/screen_shot_reject"
+                android:text="Cancel" />
+
+            <ImageButton
+                android:id="@+id/saveSnapshoot"
+                android:layout_width="wrap_content"
+                android:layout_height="50sp"
+                android:layout_marginLeft="3dp"
+                android:contentDescription="Save"
+                android:src="@drawable/screen_shot_accept" />
+
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

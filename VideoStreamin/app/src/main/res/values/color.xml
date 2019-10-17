@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black_ori">#ffffff</color>
+    <color name="text_color">#6fec69</color>
+    <color name="text_color_blue">#00cc69</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue">#996533</color>
+    <color name="gray">#eaeaea</color>
+    <color name="some_color">#706A8C</color>
+    <color name="fake_black">#2E2E2E</color>
+    <color name="bg_color">#7ed37e</color>
+    <color name="inner_bg_color">#996533</color>
+    <color name="inner_hint_color">#d5a87c</color>
+    <color name="job_color">#f9e5bd</color>
+    <color name="blue1">#5ae9e7</color>
+    <color name="black">#000000</color>
+    <color name="red">#e10d33</color>
+    <color name="lighter_gray">#84e2dbd7</color>
+    <color name="vert_clair">#bbf4b8</color>
+    <color name="background_stock">#cccfcc</color>
+    <color name="redFonce">#d30003</color>
+    <color name="light_gray">#84e7e5e4</color>
+    <color name="bright_foreground_light_disabled">#80000000</color>
+    <color name="dim_foreground_dark_inverse_disabled">#80323232</color>
+    <color name="aqua">#00FFFF</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="colorAccent">#c6d6f0</color>
+    <color name="colorBlack">#000000</color>
+    <color name="darkGrayColor">#a9a9a9</color>
+    <color name="segmented1">#ff33b5e5</color>
+
+    <color name="appColor">#e74c3c</color>
+    <color name="colorBlackAniline">#120D16</color>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+	android:background="#ffffff"
+android:orientation="vertical">
+
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/listRecord"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:choiceMode="singleChoice"
+	android:clickable="true"
+	android:divider="@drawable/item_row_divider"
+	android:dividerHeight="1dp"
+	android:listSelector="@drawable/item_row_selector"/>
+<TextView
+	android:id="@+id/empty_list_Camera"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:gravity="center"
+	android:layout_gravity="center"
+	android:textColor="#525252"
+	android:textSize="19.0sp"
+	android:visibility="gone"
+	android:text="@string/empty_list_home" >
+</TextView>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="#DCDCDC"
+	android:orientation="vertical"
+	android:layout_centerInParent="true"
+	android:layout_alignParentBottom="true">
+	<ImageView
+		android:id="@+id/pictureList"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:adjustViewBounds="true"
+		android:layout_gravity="center"
+		android:clickable="true"
+		android:src="@drawable/picture"
+	/>
+</LinearLayout>
+
+
+</RelativeLayout>

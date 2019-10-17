@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.pedroSG94.vlc-example-streamplayer:pedrovlc:2.5.14v3@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/pedrovlc-2.5.14v3.aar/ef5b63cccf864b37973c31be0c8db144/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/pedrovlc-2.5.14v3.aar/ef5b63cccf864b37973c31be0c8db144/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.pedroSG94.vlc-example-streamplayer/pedrovlc/2.5.14v3/6e2bdee07b1e98fce5d7468d2d70a2242b3f409d/pedrovlc-2.5.14v3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

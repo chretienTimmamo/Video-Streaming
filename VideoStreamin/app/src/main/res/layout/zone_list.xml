@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/listZone"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" />
+<TextView
+	android:id="@+id/empty_list_home"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:gravity="center_vertical|center_horizontal"
+	android:layout_gravity="center"
+	android:textColor="#ffffff"
+	android:textSize="19.0sp"
+	android:visibility="gone"
+	android:text="@string/empty_list_home" >
+</TextView>
+<TextView
+	android:id="@+id/check_connexion"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:gravity="center"
+	android:layout_gravity="center"
+	android:textColor="#ffffff"
+	android:textSize="19.0sp"
+	android:visibility="gone"
+	android:text="@string/check_connexion" >
+</TextView>
+
+
+</LinearLayout>

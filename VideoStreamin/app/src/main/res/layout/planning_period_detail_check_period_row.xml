@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_selector"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+    <TextView android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+
+    <!--  ListRow Left sied Thumbnail image -->
+    <LinearLayout android:id="@+id/setPeriodStep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:layout_below="@+id/textTitle"
+        android:layout_alignStart="@+id/textTitle"
+        android:orientation="horizontal">
+
+        <TextView android:id="@+id/periodFromId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="@string/periodFrom"
+            />
+
+        <EditText
+            android:id="@+id/checkPeriodFrom"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:clickable="true"
+            android:editable="false"
+            android:focusableInTouchMode="true"
+            android:layout_marginLeft="5sp"
+             />
+
+
+        <TextView android:id="@+id/periodToId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/periodTo"
+            android:layout_marginLeft="10sp"
+            android:textSize="16sp"
+            />
+
+        <EditText
+            android:id="@+id/checkPeriodTo"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:clickable="true"
+            android:editable="false"
+            android:layout_marginLeft="5sp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
